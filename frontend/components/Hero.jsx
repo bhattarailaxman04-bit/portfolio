@@ -26,16 +26,16 @@ export default function Hero() {
       
       {/* 1. Left side: content */}
       <div className="md:w-3/5 space-y-6">
-        <div className="inline-block px-3 py-1 bg-slate-100 text-slate-600 text-xs font-bold uppercase tracking-widest rounded">
+        <div className="inline-block px-3 py-1 bg-slate-100 text-slate-600 text-xs font-bold uppercase tracking-widest rounded mt-4 md:mt-0">
           BCA Student & Developer
         </div>
         
-        <h1 className="text-6xl font-extrabold tracking-tight text-slate-900 leading-none">
+        <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-slate-900 leading-none">
           Lokendra <br />
           <span className="text-sky-600">Bhattarai</span>
         </h1>
 
-        <p className="text-xl text-slate-500 max-w-lg leading-relaxed">
+        <p className="text-lg md:text-xl text-slate-500 max-w-lg leading-relaxed">
           I build robust web architectures at <span className="font-semibold text-slate-800">Aryan Engineering College</span>. 
           Focused on the intersection of design and scalable code.
         </p>

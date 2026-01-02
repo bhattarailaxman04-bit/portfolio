@@ -12,6 +12,9 @@ connectDB();
 app.use(cors()); 
 app.use(express.json());
 
+
+app.use("/",(req,res)=>res.send("Server is up and running!"))
+
 // Define Routes
 // This line tells the app to use your contact.js route file
 app.use('/api/contact', require('./routes/contact')); 

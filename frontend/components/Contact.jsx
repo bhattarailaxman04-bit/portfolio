@@ -60,7 +60,7 @@ export default function Contact() {
                 <div className="p-3 bg-white rounded-lg shadow-sm text-green-600 group-hover:bg-green-600 group-hover:text-white transition-all"><FaWhatsapp /></div>
                 <span className="font-semibold text-sm">WhatsApp</span>
               </a>
-              <a href="https://github.com/bhattarailaxman04-bit" target="_blank" rel="noreferrer" className="flex items-center gap-4 p-4 rounded-xl bg-slate-50 border border-slate-100 hover:bg-blue-400 hover:border-slate-900 transition-all group">
+              <a href="https://github.com/bhattarailaxman04-bit" target="_blank" rel="noreferrer" className="flex items-center gap-4 p-4 rounded-xl bg-slate-50 border border-slate-100 hover:bg-blue-4 hover:border-slate-900 transition-all group">
                 <div className="p-3 bg-white rounded-lg shadow-sm text-slate-900 group-hover:bg-white group-hover:text-slate-900 transition-all"><FaGithub /></div>
                 <span className="font-semibold text-sm">GitHub</span>
               </a>

@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Message = require('../models/Message'); // Ensure this file is named Message.js in your models folder
+const Message = require('../models/message'); // Ensure this file is named Message.js in your models folder
 
 // @route   POST api/contact
 // @desc    Save message ONLY to MongoDB Atlas

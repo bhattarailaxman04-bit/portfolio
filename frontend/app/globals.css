@@ -33,3 +33,24 @@ body {
   background-color: #0F172A;
   color: white;
 }
+/* Moves blue gradient downward slowly */
+@keyframes waveDown {
+  0% { transform: translateY(-20px); }
+  50% { transform: translateY(20px); }
+  100% { transform: translateY(-20px); }
+}
+
+.animate-waveDown {
+  animation: waveDown 10s ease-in-out infinite;
+}
+
+/* Moves white SVG wave horizontally */
+@keyframes waveMove {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(50px); }
+  100% { transform: translateX(0); }
+}
+
+.animate-waveMove {
+  animation: waveMove 12s ease-in-out infinite;
+}
